@@ -1,0 +1,92 @@
+body{
+    font-family: "Verdana";
+    background-image: url(Imagens/games\ e\ jogos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-items: center;
+}
+
+h1{
+    text-shadow: 3px 3px rgb(117, 64, 118);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 100px;
+}
+/*menu.html*/
+#container{
+    display: grid;
+    position: relative;
+    top: 250px;
+    justify-content: center;
+}
+
+/*menu.html*/
+.opcoes{
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.5;
+    background-color: beige;    
+}
+
+/*GamesEjogos.html*/
+.menu{
+    display: grid;
+    position: relative;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    bottom: 20px;
+    right: 30px;
+}
+
+/*GamesEjogos.html*/
+.menuopcoes{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: dotted;
+    
+}
+
+/*GamesEjogos.html*/
+.tela_jogo{
+    display: grid;
+    position: relative;
+    justify-items: right;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+    border-style: solid;
+    width: 75%;
+    height: 95vh;
+    align-content: flex-end;
+}
+
+/*GamesEjogos.html*/
+#alvo{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*GamesEjogos.html*/
+.info{
+    top:20px;
+    position: fixed;
+    display: grid;
+}
+
+/*GamesEjogos.html*/
+.telaVitoria{
+    display: none;
+    position: relative;
+    right: 40%;
+    bottom: 250px;
+    background-color: rgb(34, 139, 139);
+}
